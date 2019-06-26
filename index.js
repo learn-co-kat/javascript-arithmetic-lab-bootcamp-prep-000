@@ -39,3 +39,4 @@ function makeInt(n, p) {
 
 makeInt(2, 10)
 
+makeInt()
