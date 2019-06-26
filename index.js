@@ -33,10 +33,8 @@ function dec(n) {
 }
 dec(5)
 
-function makeInt(n, p) {
-  return(parseInt(n, p))
+function makeInt(n) {
+  return(parseInt(n))
 }
 
 makeInt(2, 10)
-
-makeInt(0x2328, 10)
