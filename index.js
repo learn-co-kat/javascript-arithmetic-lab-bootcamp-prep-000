@@ -39,4 +39,4 @@ function makeInt(n, p) {
 
 makeInt(2, 10)
 
-makeInt()
+makeInt(0x2328, 10)
