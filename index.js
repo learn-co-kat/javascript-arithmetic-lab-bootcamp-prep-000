@@ -64,3 +64,10 @@ makeInt(sldkjflksjf, 10)
 //     expect(isNaN(preserveDecimal('sldkjflksjf'))).toEqual(true)
 //   })
 // })
+
+function preserveDecimal(n){
+  return(parseFloat(n, 10))
+}
+
+preserveDecimal(2.222, 10)
+preserveDecimal()
