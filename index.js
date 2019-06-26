@@ -39,4 +39,7 @@ function makeInt(n) {
 
 makeInt(2, 10)
 
+//  it('assumes base 10', function() {
+//  expect(makeInt('0x2328')).toEqual(0)
+
 makeInt()
