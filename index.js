@@ -70,4 +70,5 @@ function preserveDecimal(n){
 }
 
 preserveDecimal(2.222, 10)
-preserveDecimal()
+preserveDecimal(sldkjflksjf, 10)
+
