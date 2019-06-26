@@ -39,9 +39,3 @@ function makeInt(n, p) {
 
 makeInt(2, 10)
 
-function makeInt(n, p) {
-  return((n * p))
-}
-
-makeInt(, 10)
-
