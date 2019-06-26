@@ -43,5 +43,5 @@ function makeInt(n, p) {
   return(parseInt(n * p))
 }
 
-makeInt(0x2328, 10)
+makeInt(, 10)
 
