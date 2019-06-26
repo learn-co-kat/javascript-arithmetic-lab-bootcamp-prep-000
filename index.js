@@ -38,5 +38,3 @@ function makeInt(n) {
 }
 
 makeInt(2)
-
-makeInt('0*2328')
