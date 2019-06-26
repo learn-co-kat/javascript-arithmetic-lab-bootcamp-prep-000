@@ -33,13 +33,23 @@ function dec(n) {
 }
 dec(5)
 
+// describe('makeInt(n)', function() {
+//   it('parses n as an integer and returns the parsed integer', function() {
+//     expect(makeInt(a.toString())).toEqual(a)
+//   })
+
+//   it('assumes base 10', function() {
+//     expect(makeInt('0x2328')).toEqual(0)
+//   })
+
+//   it('returns NaN as appropriate', function() {
+//     expect(isNaN(makeInt('sldkjflksjf'))).toEqual(true)
+//   })
+// })
+
 function makeInt(n) {
   return(parseInt(n, 10))
 }
 
 makeInt(2, 10)
-
-//  it('assumes base 10', function() {
-//  expect(makeInt('0x2328')).toEqual(0)
-
-makeInt()
+makeInt(0, 10)
