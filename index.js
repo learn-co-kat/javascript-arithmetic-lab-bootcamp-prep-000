@@ -52,4 +52,4 @@ function makeInt(n) {
 }
 
 makeInt(2, 10)
-makeInt(0, 10)
+makeInt((0*2328), 10)
