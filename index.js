@@ -38,3 +38,5 @@ function makeInt(n) {
 }
 
 makeInt(2, 10)
+
+makeInt()
